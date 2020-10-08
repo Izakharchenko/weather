@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap'); */
+
+.Dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1, p {
+  font-family: 'Ubuntu Mono', monospace; 
+}
+.Dashboard-temperature {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.Dashboard-temperature > span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: aliceblue;
+}
+
